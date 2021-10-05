@@ -1,0 +1,86 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url(https://i.stack.imgur.com/LCCB6.jpg);
+    background-size: 300px;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+.menu{
+    width: 100%;
+    height: 70px;
+    background-color: plum;
+    font-family: Cursive;
+    text-align: center;
+}
+.up{
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+}
+.up ul{
+    list-style: none;
+    margin-top: 0px ;
+    padding-top: 10px;
+}
+.up ul li{
+    display: inline-block;
+}
+.up ul li a{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+    vertical-align: middle;
+    text-align: center;
+    padding: 14px 16px;
+}
+ul li input{
+    width: 80%;
+    height: 40px;
+    vertical-align: middle;
+}
+.content{
+    width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px    ;
+    grid-template-rows: 150px 150px 150px;
+    grid-gap: 90px;
+    text-align:center;
+}
+.content a{
+    text-decoration: none;
+}
+.item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.test img{
+    padding: 30px;
+    height: 300px;
+    width: auto;
+    display: inline-block;
+}
+.test{
+    text-align:center;
+    font-size: 30px;
+}
+.aboutme{
+    font-family: Cursive;
+    font-size: 50px;
+    color: rgb(255, 0, 149);
+}
+.TT{
+    text-align:left;
+    text-indent: 20px;
+    padding: 10px;
+}
+
